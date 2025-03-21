@@ -1,2 +1,2 @@
 randomUrl=
-linkleriGoruntule=
+linkleriGoruntule=https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/fullLink.txt
