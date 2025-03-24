@@ -1,3 +1,3 @@
 randomUrl=https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/fullLink.txt
 linkleriGoruntule=https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/fullLink.txt
-apkLinkler=DENEME
+apkLinkler=https://raw.githubusercontent.com/patr0nq/link/refs/heads/main/fullLink.txt
