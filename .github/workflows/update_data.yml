@@ -1,8 +1,10 @@
 name: TRGoals Bot
 
 on:
+  # Her 6 saatte bir (0, 6, 12, 18. saatlerin başında) çalışır
   schedule:
     - cron: '0 */6 * * *'
+  # GitHub arayüzünden manuel tetiklemeyi sağlar
   workflow_dispatch:
 
 jobs:
@@ -11,20 +13,19 @@ jobs:
 
     steps:
       - name: Repo'yu checkout et
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Güncel sürüm kullanıldı
 
       - name: Python kurulumu
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5 # Güncel sürüm kullanıldı
         with:
           python-version: '3.11'
 
       - name: Gerekli paketleri yükle
+        # requests kütüphanesini yükler.
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
       - name: TRGoals botu çalıştır
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          python trgoals_bot.py
+        # Python scriptini yeni konumu (.github/script/data.py) üzerinden çalıştırır.
+        run: python .github/script/data.py
