@@ -1,0 +1,30 @@
+name: TRGoals Bot
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo'yu checkout et
+        uses: actions/checkout@v3
+
+      - name: Python kurulumu
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Gerekli paketleri yükle
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: TRGoals botu çalıştır
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          python trgoals_bot.py
