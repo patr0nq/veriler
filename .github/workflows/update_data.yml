@@ -1,10 +1,8 @@
 name: TRGoals Bot
 
 on:
- 
   schedule:
     - cron: '0 */6 * * *'
-  
   workflow_dispatch:
 
 jobs:
@@ -13,7 +11,7 @@ jobs:
 
     steps:
       - name: Repo'yu checkout et
-        uses: actions/checkout@v4 
+        uses: actions/checkout@v4
 
       - name: Python kurulumu
         uses: actions/setup-python@v5
@@ -21,22 +19,16 @@ jobs:
           python-version: '3.11'
 
       - name: Gerekli paketleri yükle
-      
         run: |
           python -m pip install --upgrade pip
           pip install requests
 
       - name: TRGoals botu çalıştır
-        
         run: python .github/script/data.py
-      
-      
       
       - name: Yeni JSON dosyasını depoya gönder (Commit & Push)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "BOT: Yeni TRGoals kanal verisi güncellendi."
-          files: "*.json" 
-          branch: main 
-          
-      
+          file_pattern: "*.json"
+          branch: main
