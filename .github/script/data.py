@@ -38,9 +38,8 @@ def fetch_and_save_json():
             logging.error("Yanıt JSON formatında değil!")
             return
         
-        # Dosya adı için tarih ekleyelim
-        now = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"trgoals_data_{now}.json"
+       
+        filename = f"trgoals_data.json"
         
         # JSON'u dosyaya kaydet
         with open(filename, 'w', encoding='utf-8') as f:
