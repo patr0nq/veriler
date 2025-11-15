@@ -11,3 +11,6 @@ http://91.151.95.122:3800/izle/sinemaaksiyon.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Sinema TV" group-title="Sinema", Sinema TV
 http://91.151.95.122:3800/izle/sinematv.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Sinema Yerli" group-title="Sinema", Sinema Yerli
+http://91.151.95.122:3800/izle/sinemayerli.m3u8
