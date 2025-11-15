@@ -1,0 +1,13 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="" tvg-name="NOW" group-title="Genel", NOW
+http://91.151.95.122:3800/izle/now.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="ATV" group-title="Genel", ATV
+http://91.151.95.122:3800/izle/atv.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Sinema Aksiyon" group-title="Sinema", Sinema Aksiyon
+http://91.151.95.122:3800/izle/sinemaaksiyon.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Sinema TV" group-title="Sinema", Sinema TV
+http://91.151.95.122:3800/izle/sinematv.m3u8
