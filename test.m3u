@@ -1,16 +1,204 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="" tvg-name="NOW" group-title="Genel", NOW
-http://91.151.95.122:3800/izle/now.m3u8
+########################
+#     🎬 SİNEMA
+########################
 
-#EXTINF:-1 tvg-id="" tvg-name="ATV" group-title="Genel", ATV
-http://91.151.95.122:3800/izle/atv.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Sinema Aksiyon" group-title="Sinema", Sinema Aksiyon
-http://91.151.95.122:3800/izle/sinemaaksiyon.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Sinema TV" group-title="Sinema", Sinema TV
+#EXTINF:-1 tvg-id="sinematv.tr" tvg-logo="https://i.imgur.com/1eMHh5K.png" group-title="Sinema", SinemaTV
 http://91.151.95.122:3800/izle/sinematv.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Sinema Yerli" group-title="Sinema", Sinema Yerli
+#EXTINF:-1 tvg-id="sinemaaksiyon.tr" tvg-logo="https://i.imgur.com/LtLh8Hy.png" group-title="Sinema", SinemaAksiyon
+http://91.151.95.122:3800/izle/sinemaaksiyon.m3u8
+
+#EXTINF:-1 group-title="Sinema", SinemaYerli
 http://91.151.95.122:3800/izle/sinemayerli.m3u8
+
+#EXTINF:-1 group-title="Sinema", SinemaAile
+http://91.151.95.122:3800/izle/sinemaaile.m3u8
+
+#EXTINF:-1 group-title="Sinema", Sinema1001
+http://91.151.95.122:3800/izle/sinema1001.m3u8
+
+#EXTINF:-1 group-title="Sinema", SinemaKomedi
+http://91.151.95.122:3800/izle/sinemakomedi.m3u8
+
+
+########################
+#     📺 ULUSAL
+########################
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2c/Now_TV_logo.png" group-title="Ulusal", NOW
+http://91.151.95.122:3800/izle/now.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/ATV_logo_2017.png" group-title="Ulusal", ATV
+http://91.151.95.122:3800/izle/atv.m3u8
+
+#EXTINF:-1 group-title="Ulusal", TRT1
+http://91.151.95.122:3800/izle/trt1.m3u8
+
+#EXTINF:-1 group-title="Ulusal", SHOWTV
+http://91.151.95.122:3800/izle/showtv.m3u8
+
+#EXTINF:-1 group-title="Ulusal", KANALD
+http://91.151.95.122:3800/izle/kanald.m3u8
+
+#EXTINF:-1 group-title="Ulusal", STAR
+http://91.151.95.122:3800/izle/star.m3u8
+
+#EXTINF:-1 group-title="Ulusal", KANAL7
+http://91.151.95.122:3800/izle/kanal7.m3u8
+
+#EXTINF:-1 group-title="Ulusal", TV8
+http://91.151.95.122:3800/izle/tv8.m3u8
+
+#EXTINF:-1 group-title="Ulusal", BEYAZTV
+http://91.151.95.122:3800/izle/beyaztv.m3u8
+
+#EXTINF:-1 group-title="Ulusal", A2
+http://91.151.95.122:3800/izle/a2.m3u8
+
+#EXTINF:-1 group-title="Ulusal", TEVE2
+http://91.151.95.122:3800/izle/teve2.m3u8
+
+#EXTINF:-1 group-title="Ulusal", 360
+http://91.151.95.122:3800/izle/360.m3u8
+
+#EXTINF:-1 group-title="Ulusal", TLC
+http://91.151.95.122:3800/izle/tlc.m3u8
+
+#EXTINF:-1 group-title="Ulusal", DMAX
+http://91.151.95.122:3800/izle/dmax.m3u8
+
+#EXTINF:-1 group-title="Ulusal", TV100
+http://91.151.95.122:3800/izle/tv100.m3u8
+
+#EXTINF:-1 group-title="Ulusal", ULUSALKANAL
+http://91.151.95.122:3800/izle/ulusalkanal.m3u8
+
+#EXTINF:-1 group-title="Ulusal", TV8.5
+http://91.151.95.122:3800/izle/tv8,5.m3u8
+
+#EXTINF:-1 group-title="Ulusal", KANALB
+http://91.151.95.122:3800/izle/kanalb.m3u8
+
+#EXTINF:-1 group-title="Ulusal", GENÇTV
+http://91.151.95.122:3800/izle/gençtv.m3u8
+
+#EXTINF:-1 group-title="Ulusal", VAVTV
+http://91.151.95.122:3800/izle/vavtv.m3u8
+
+#EXTINF:-1 group-title="Ulusal", TV4
+http://91.151.95.122:3800/izle/tv4.m3u8
+
+
+########################
+#     📰 HABER
+########################
+
+#EXTINF:-1 group-title="Haber", TRT HABER
+http://91.151.95.122:3800/izle/trthaber.m3u8
+
+#EXTINF:-1 group-title="Haber", A HABER
+http://91.151.95.122:3800/izle/ahaber.m3u8
+
+#EXTINF:-1 group-title="Haber", NTV
+http://91.151.95.122:3800/izle/ntv.m3u8
+
+#EXTINF:-1 group-title="Haber", CNN TÜRK
+http://91.151.95.122:3800/izle/cnntürk.m3u8
+
+#EXTINF:-1 group-title="Haber", 24 TV
+http://91.151.95.122:3800/izle/24tv.m3u8
+
+#EXTINF:-1 group-title="Haber", TGRT HABER
+http://91.151.95.122:3800/izle/tgrthaber.m3u8
+
+#EXTINF:-1 group-title="Haber", HABERTÜRK
+http://91.151.95.122:3800/izle/habertürk.m3u8
+
+#EXTINF:-1 group-title="Haber", BLOOMBERG HT
+http://91.151.95.122:3800/izle/bloomberght.m3u8
+
+#EXTINF:-1 group-title="Haber", ÜLKE TV
+http://91.151.95.122:3800/izle/ülketv.m3u8
+
+#EXTINF:-1 group-title="Haber", TVNET
+http://91.151.95.122:3800/izle/tvnet.m3u8
+
+#EXTINF:-1 group-title="Haber", AKİT TV
+http://91.151.95.122:3800/izle/akittv.m3u8
+
+#EXTINF:-1 group-title="Haber", EKOL TV
+http://91.151.95.122:3800/izle/ekoltv.m3u8
+
+#EXTINF:-1 group-title="Haber", HALK TV
+http://91.151.95.122:3800/izle/halktv.m3u8
+
+#EXTINF:-1 group-title="Haber", HABER GLOBAL
+http://91.151.95.122:3800/izle/haberglobal.m3u8
+
+#EXTINF:-1 group-title="Haber", SZC TV
+http://91.151.95.122:3800/izle/szctv.m3u8
+
+
+########################
+#     ⚽ SPOR
+########################
+
+#EXTINF:-1 group-title="Spor", TRT Spor
+http://91.151.95.122:3800/izle/trtspor.m3u8
+
+#EXTINF:-1 group-title="Spor", TRT Spor Yıldız
+http://91.151.95.122:3800/izle/trtsporyıldız.m3u8
+
+#EXTINF:-1 group-title="Spor", A Spor
+http://91.151.95.122:3800/izle/aspor.m3u8
+
+#EXTINF:-1 group-title="Spor", beIN Sports Haber
+http://91.151.95.122:3800/izle/beinsportshaber.m3u8
+
+#EXTINF:-1 group-title="Spor", Eurosport 1
+http://91.151.95.122:3800/izle/eurosport1.m3u8
+
+#EXTINF:-1 group-title="Spor", Eurosport 2
+http://91.151.95.122:3800/izle/eurosport2.m3u8
+
+#EXTINF:-1 group-title="Spor", Sportstv
+http://91.151.95.122:3800/izle/sportstv.m3u8
+
+#EXTINF:-1 group-title="Spor", Fenerbahçe TV
+http://91.151.95.122:3800/izle/fbtv.m3u8
+
+
+########################
+#     🧒 ÇOCUK
+########################
+
+#EXTINF:-1 group-title="Çocuk", TRT Çocuk
+http://91.151.95.122:3800/izle/trtçocuk.m3u8
+
+#EXTINF:-1 group-title="Çocuk", Minika Çocuk
+http://91.151.95.122:3800/izle/minikaçocuk.m3u8
+
+#EXTINF:-1 group-title="Çocuk", Minika GO
+http://91.151.95.122:3800/izle/minikago.m3u8
+
+#EXTINF:-1 group-title="Çocuk", BabyTV
+http://91.151.95.122:3800/izle/babytv.m3u8
+
+#EXTINF:-1 group-title="Çocuk", Cartoon Network
+http://91.151.95.122:3800/izle/cartoonnetwork.m3u8
+
+
+########################
+#     🎵 MÜZİK
+########################
+
+#EXTINF:-1 group-title="Müzik", TRT Müzik
+http://91.151.95.122:3800/izle/trtmüzik.m3u8
+
+#EXTINF:-1 group-title="Müzik", Dream Türk
+http://91.151.95.122:3800/izle/dreamtürk.m3u8
+
+#EXTINF:-1 group-title="Müzik", Trace Urban
+http://91.151.95.122:3800/izle/traceurban.m3u8
