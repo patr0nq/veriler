@@ -1,4 +1,7 @@
 {
-    "error": "Failed to fetch m3u file",
-    "url": "https://yepp.site/canli-maclar/list/trgoals_tv_gpik.m3u"
+    "list": {
+        "service": "iptv",
+        "title": "iptv",
+        "item": []
+    }
 }
